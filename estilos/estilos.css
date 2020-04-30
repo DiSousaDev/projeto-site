@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.container {
+        margin: 0 auto;
+        width: 970px;
+        position: relative;
+}
+
+.quadrado {
+    height: 200px;
+    width: 200px;
+}
+
+.primeiro{
+    background-color: #e74c3c;
+}
+
+.primeiro:hover{
+    background-color: #1abc9c;    
+    transform: scale(1.2);
+}
+
+.segundo{
+    background-color: #1abc9c;  
+}
+
+.segundo:hover{
+    background-color: #e74c3c;
+    transform: scale(1.2);
+}
+
